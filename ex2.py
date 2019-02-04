@@ -1,8 +1,5 @@
 #coding utf 8
-import os
-import psutil
-import sys
-import shutil
+
 print("Trying out Python")
 name = input("Present yourself: ")
 print("You are going to regret entering my Lair,",name,"!")
