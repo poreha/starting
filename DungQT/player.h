@@ -13,7 +13,8 @@ public:
     int atc =0;
     int block =0;
     int mana =0;
-    player();
+    player(std::string t_Name, int t_hp, int t_atc, int t_block, int t_mana);
+    player(std::string t_Name);
     void getName(std::string = "");
     std::string putName() const;
 
